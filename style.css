@@ -1,0 +1,168 @@
+*{
+  margin: 0 ;
+
+}
+section{
+    height: 92.5vh;
+    width: 100%;
+    padding: 30px 0px ;
+    background-color: grey;
+}
+
+nav {
+   height: 16%;
+   width: 100%;
+   background-color: brown;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+   .logo{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    margin-right: 190px;
+    border-radius: 10px;
+   }
+   nav ul li a{
+    text-decoration: none;
+    color:white;
+   }
+  nav ul li{
+    display: inline;
+    margin: 18px;
+    font-size: 20px;
+   
+   }
+  nav button{
+    height: 60px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+  }
+
+
+
+.introcontainer {
+  margin-top: 50px;
+   padding: 10px 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.introcontainer p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.introcontainer  .icon{
+  height: 60px;
+  width: 60px;
+  border: solid 1px black;
+  border-radius: 50%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+ font-size: 30px;
+}
+.introcontainer .work{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+.work span{
+  width: 60px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container{
+  height: 20%;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 170px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.present h1{
+  
+  position: absolute;
+  font-size: 90px;
+ margin-top: 40px;
+ 
+  }
+  .container span{
+    color: white;
+    -webkit-text-stroke: 2px black;
+
+
+  }
+.imag img{
+  position: absolute;
+  bottom: 0;
+ 
+  margin-left: 245px;
+  height: 650px;
+  width: 550px;
+
+}
+
+.calltoaction {
+margin-left: 65%;
+font-size: 30px;
+
+
+}
+.calltoaction a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.container2{
+  display: flex;
+}
+.container2  .scroll{
+  height: 70px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: solid 1px black;
+  border-radius: 40%;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.scroll i{
+  font-size: 30px;
+}
+  
+  .container2 .down{
+    margin-top: 80px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+ 
